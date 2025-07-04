@@ -13,7 +13,16 @@ public class JobListener {
 
     @RabbitListener(queues = "${job.queue}")
     public void receiveJob(JobMessage jobMessage) {
-        System.out.println("Received job: " + jobMessage.getJobId());
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
+            java.util.Map<String, Object> map = mapper.convertValue(jobMessage, java.util.Map.class);
+            System.out.println("Received JobMessage fields:");
+            for (java.util.Map.Entry<String, Object> entry : map.entrySet()) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         StatusMessage status = schedulerService.processJob(jobMessage);
         statusPublisher.sendStatus(status);
     }

@@ -1,5 +1,6 @@
 com\example\unitimescheduler\StatusMessage.class
 com\example\unitimescheduler\JobMessage.class
+com\example\unitimescheduler\RabbitConfig.class
 com\example\unitimescheduler\StatusPublisher.class
 com\example\unitimescheduler\UnitimeSchedulerApplication.class
 com\example\unitimescheduler\JobListener.class
