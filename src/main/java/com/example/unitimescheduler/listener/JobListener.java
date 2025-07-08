@@ -1,5 +1,9 @@
-package com.example.unitimescheduler;
+package com.example.unitimescheduler.listener;
 
+import com.example.unitimescheduler.models.JobMessage;
+import com.example.unitimescheduler.service.SchedulerService;
+import com.example.unitimescheduler.models.StatusMessage;
+import com.example.unitimescheduler.StatusPublisher;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

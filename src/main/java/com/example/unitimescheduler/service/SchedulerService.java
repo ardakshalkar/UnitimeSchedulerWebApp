@@ -1,4 +1,4 @@
-package com.example.unitimescheduler;
+package com.example.unitimescheduler.service;
 
 import java.nio.file.Paths;
 import java.util.HashMap;
@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+import com.example.unitimescheduler.models.JobMessage;
+import com.example.unitimescheduler.models.StatusMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

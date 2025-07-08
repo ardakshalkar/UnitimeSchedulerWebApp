@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7c6412c-185f-45b3-9c45-84b8fc17a955" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/models/StatusMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpsolver-1.4.74.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/JobListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/listener/JobListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/JobMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/models/JobMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/service/SchedulerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-enrollment-multiconfig-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/JobListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/JobMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/RabbitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/SchedulerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/UnitimeSchedulerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/UnitimeSchedulerApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2zaP8JLgr9AE5Jyw3JzPArtncaX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.unitime-scheduler [clean,install].executor": "Run",
+    "Maven.unitime-scheduler [clean].executor": "Run",
+    "Maven.unitime-scheduler [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.UnitimeSchedulerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/UnitimeSchedulerWebApp/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\lib" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UnitimeSchedulerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="unitime-scheduler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.unitimescheduler.UnitimeSchedulerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7c6412c-185f-45b3-9c45-84b8fc17a955" name="Changes" comment="" />
+      <created>1751966049477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751966049477</updated>
+      <workItem from="1751966050568" duration="1153000" />
+      <workItem from="1751967219763" duration="694000" />
+      <workItem from="1751967928538" duration="1305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
