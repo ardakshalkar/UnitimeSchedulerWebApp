@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7c6412c-185f-45b3-9c45-84b8fc17a955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/models/StatusMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpsolver-1.4.74.jar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/JobListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/listener/JobListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/JobMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/models/JobMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/service/SchedulerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/StatusPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-enrollment-multiconfig-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/JobListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/JobMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/RabbitConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/SchedulerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/StatusPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/UnitimeSchedulerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/UnitimeSchedulerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/service/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/service/SchedulerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -64,7 +48,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.UnitimeSchedulerApplication.executor": "Run",
+    "Spring Boot.UnitimeSchedulerApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/UnitimeSchedulerWebApp/lib",
@@ -112,6 +96,7 @@
       <workItem from="1751966050568" duration="1153000" />
       <workItem from="1751967219763" duration="694000" />
       <workItem from="1751967928538" duration="1305000" />
+      <workItem from="1752156672693" duration="2221000" />
     </task>
     <servers />
   </component>

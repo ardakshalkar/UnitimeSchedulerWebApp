@@ -49,7 +49,14 @@ public class SchedulerService {
             jobStatusMap.put(jobMessage.getJobId(), status);
             logger.info("Job {} in progress", jobMessage.getJobId());
             Thread.sleep(2000); // Simulate work
-            StudentEnrollmentWithMultipleConfigurations.main(new String[] {jobMessage.getTimetableConfigurations()});
+            java.util.List<String> fullPaths = jobMessage.getGeneratedTimetablePaths();
+            String exportDir = jobMessage.getTimetableConfigurations();
+            java.util.List<String> args = new java.util.ArrayList<>();
+            args.add(exportDir);
+            for (String path : fullPaths) {
+                args.add(new java.io.File(path).getName());
+            }
+            StudentEnrollmentWithMultipleConfigurations.main(args.toArray(new String[0]));
 
 
             status.setStatus("COMPLETED");
