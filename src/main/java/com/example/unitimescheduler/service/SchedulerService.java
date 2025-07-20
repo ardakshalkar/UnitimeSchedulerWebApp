@@ -36,7 +36,7 @@ public class SchedulerService {
             logger.warn("No generated timetable paths provided for job {}", jobMessage.getJobId());
             return status;
         }
-        String resultFile = Paths.get(paths.get(0)).toString();
+        String resultFile = "C:\\Users\\User\\IdeaProjects\\UnitimeSchedulerWebApp\\solutions_instructors.json";
         try {
             // Simulate scheduler logic and write a JSON result
             Map<String, Object> result = new HashMap<>();
