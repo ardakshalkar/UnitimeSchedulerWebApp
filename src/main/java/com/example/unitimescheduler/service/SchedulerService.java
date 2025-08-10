@@ -1,5 +1,8 @@
 package com.example.unitimescheduler.service;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
@@ -7,18 +10,27 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+import com.example.unitimescheduler.converter.PathToFile;
+import com.example.unitimescheduler.feign.FileServiceClient;
 import com.example.unitimescheduler.models.JobMessage;
 import com.example.unitimescheduler.models.StatusMessage;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 
 import com.example.student.StudentEnrollmentWithMultipleConfigurations;
+import org.springframework.web.multipart.MultipartFile;
 
 @Service
+@Slf4j
+@RequiredArgsConstructor
 public class SchedulerService {
     private static final Logger logger = LoggerFactory.getLogger(SchedulerService.class);
     private final ConcurrentMap<String, StatusMessage> jobStatusMap = new ConcurrentHashMap<>();
+    private final FileServiceClient fileServiceClient;
 
     public StatusMessage processJob(JobMessage jobMessage) {
         System.out.println("Processing job: " + jobMessage.getJobId());
@@ -60,10 +72,18 @@ public class SchedulerService {
 
 
             status.setStatus("COMPLETED");
+
+            MultipartFile multipartFile = PathToFile.fileToMultipart(resultFile);
+            resultFile = fileServiceClient.uploadFile(multipartFile); //"примерно <имя-файла> succesfully added"
+            log.info(resultFile);
+            
+
             status.setResultFile(resultFile);
+
             status.setMessage("Job finished successfully");
             jobStatusMap.put(jobMessage.getJobId(), status);
             logger.info("Job {} completed", jobMessage.getJobId());
+            log.info(status.getResultFile());
         } catch(Exception e) {
             status.setStatus("FAILED");
             status.setMessage("Error: " + e.getMessage());

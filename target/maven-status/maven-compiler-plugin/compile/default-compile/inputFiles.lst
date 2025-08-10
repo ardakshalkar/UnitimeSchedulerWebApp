@@ -1,7 +1,7 @@
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\JobListener.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\JobMessage.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\RabbitConfig.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\SchedulerService.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\StatusMessage.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\StatusPublisher.java
-C:\Users\Ardak Shalkar\Development\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\UnitimeSchedulerApplication.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\config\RabbitConfig.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\listener\JobListener.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\models\JobMessage.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\models\StatusMessage.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\service\SchedulerService.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\StatusPublisher.java
+C:\Users\User\IdeaProjects\UnitimeSchedulerWebApp\src\main\java\com\example\unitimescheduler\UnitimeSchedulerApplication.java
