@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7c6412c-185f-45b3-9c45-84b8fc17a955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/unitimescheduler/service/SchedulerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/unitimescheduler/listener/JobListenerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/feign/FileServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unitimescheduler/feign/FileServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/service/SchedulerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/unitimescheduler/service/SchedulerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.JobListenerTest.executor": "Run",
+    "JUnit.JobListenerTest.testReceiveJobWithExceptionInProcessJob.executor": "Run",
+    "JUnit.SchedulerServiceTest.executor": "Run",
     "Maven.unitime-scheduler [clean,install].executor": "Run",
     "Maven.unitime-scheduler [clean].executor": "Run",
     "Maven.unitime-scheduler [install].executor": "Run",
@@ -104,6 +105,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.unitimescheduler.listener" />
       <recent name="com.example.unitimescheduler.service" />
     </key>
   </component>
@@ -112,7 +114,23 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UnitimeSchedulerApplication">
+  <component name="RunManager" selected="JUnit.JobListenerTest.testReceiveJobWithExceptionInProcessJob">
+    <configuration name="JobListenerTest.testReceiveJobWithExceptionInProcessJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unitime-scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.unitimescheduler.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.unitimescheduler.listener" />
+      <option name="MAIN_CLASS_NAME" value="com.example.unitimescheduler.listener.JobListenerTest" />
+      <option name="METHOD_NAME" value="testReceiveJobWithExceptionInProcessJob" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitimeSchedulerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="unitime-scheduler" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.unitimescheduler.UnitimeSchedulerApplication" />
@@ -136,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JobListenerTest.testReceiveJobWithExceptionInProcessJob" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -175,7 +194,7 @@
       <workItem from="1757652300253" duration="1252000" />
       <workItem from="1757658713196" duration="790000" />
       <workItem from="1757673427818" duration="1481000" />
-      <workItem from="1757830506567" duration="735000" />
+      <workItem from="1757830506567" duration="1575000" />
     </task>
     <servers />
   </component>
